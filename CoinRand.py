@@ -2,9 +2,11 @@ import math
 import random
 
 # 실험 매개변수 선언
-# num_of_nodes = pow(2, 10)       # 전체 노드 개수 n (2의 제곱승으로 가정)
-# num_of_triggers = pow(2, 20)    # 검출하고자 하는 트리거 개수 w
-num_of_nodes = pow(2, 12)
+num_of_nodes = pow(2, 4)        # n = 16
+# num_of_nodes = pow(2, 6)      # n = 64
+# num_of_nodes = pow(2, 8)      # n = 256
+# num_of_nodes = pow(2, 10)     # n = 1024
+# num_of_nodes = pow(2, 12)     # n = 4096
 num_of_triggers = 1000000
 
 # CoinRand 매개변수 계산
