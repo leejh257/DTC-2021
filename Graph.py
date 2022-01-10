@@ -47,13 +47,13 @@ ylabel2 = 'Number of rounds'
 ylabels = [ylabel0, ylabel1, ylabel2]
 ylimits = [[90000, 160, 24], [180000, 320, 32], [250000, 400, 40]]
 
-#index = 0   # Message Complexity: 0, MaxRcv: 1, Round: 2
+#index = 0  # Message Complexity: 0, MaxRcv: 1, Round: 2
 #index = 1  # Message Complexity: 0, MaxRcv: 1, Round: 2
-index = 2  # Message Complexity: 0, MaxRcv: 1, Round: 2
+index = 2   # Message Complexity: 0, MaxRcv: 1, Round: 2
 
-#num_of_nodes_index = 0      # 10,000: 0, 100,000: 1, 1,000,000: 2
+#num_of_nodes_index = 0     # 10,000: 0, 100,000: 1, 1,000,000: 2
 #num_of_nodes_index = 1     # 10,000: 0, 100,000: 1, 1,000,000: 2
-num_of_nodes_index = 2     # 10,000: 0, 100,000: 1, 1,000,000: 2
+num_of_nodes_index = 2      # 10,000: 0, 100,000: 1, 1,000,000: 2
 
 plt.plot(x, cr[num_of_nodes_index][index], 'kx:', label='CoinRand')
 plt.plot(x, tf[num_of_nodes_index][index], 'k+--', label='TreeFill')
