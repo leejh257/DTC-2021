@@ -2,11 +2,13 @@ import math
 import random
 
 # 실험 매개변수 선언
-num_of_nodes = pow(2, 4)        # n = 16
+# num_of_nodes = pow(2, 4)      # n = 16
 # num_of_nodes = pow(2, 6)      # n = 64
 # num_of_nodes = pow(2, 8)      # n = 256
 # num_of_nodes = pow(2, 10)     # n = 1024
-# num_of_nodes = pow(2, 12)     # n = 4096
+num_of_nodes = pow(2, 12)       # n = 4096
+# num_of_triggers = 10000
+# num_of_triggers = 100000
 num_of_triggers = 1000000
 
 # 제안 기법 매개변수 계산
